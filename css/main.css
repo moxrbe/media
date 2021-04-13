@@ -22,8 +22,10 @@ ul{
 
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 
@@ -68,10 +70,10 @@ ul{
 /* sectionTop start */
 
 .card{
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
    
 }
 
@@ -84,12 +86,11 @@ ul{
 }
 
 .img:hover{
-    background: gold;
+    background: rgb(255, 94, 0);
 }
 
 .desc{
     width: 500px;
-    margin-top: 70px;
 }
 
 
@@ -120,7 +121,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
     align-items: center;
 }
 
@@ -141,7 +141,7 @@ h2{
 }
 
 .img_2:hover{
-    background: darkred;
+    background: rgb(139, 0, 81);
 }
 
 
